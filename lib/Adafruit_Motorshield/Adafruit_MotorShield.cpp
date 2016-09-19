@@ -52,6 +52,7 @@ void Adafruit_MotorShield::begin(uint16_t freq) {
 }
 
 void Adafruit_MotorShield::setPWM(uint8_t pin, uint16_t value) {
+  value/=2;
   if (value > 4095) {
     _pwm.setPWM(pin, 4096, 0);
   } else 
