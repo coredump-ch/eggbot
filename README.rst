@@ -1,6 +1,9 @@
 Arduino Eggbot
 ==============
 
+Paint your eggs and other round objects with your own hardware.
+See https://egg-bot.com for future information.
+
 Setup
 -----
 
